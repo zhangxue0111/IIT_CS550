@@ -1,0 +1,590 @@
+superPeer_1: 
+     ip: 192.168.56.1
+     serverPort: 60001
+     clientPort: 8081
+     links: 
+          - nodeName: superPeer_2
+            ip: 192.168.56.1
+            serverPort: 60002
+          - nodeName: superPeer_3
+            ip: 192.168.56.1
+            serverPort: 60003
+          - nodeName: superPeer_4
+            ip: 192.168.56.1
+            serverPort: 60004
+          - nodeName: superPeer_5
+            ip: 192.168.56.1
+            serverPort: 60005
+          - nodeName: superPeer_6
+            ip: 192.168.56.1
+            serverPort: 60006
+          - nodeName: superPeer_7
+            ip: 192.168.56.1
+            serverPort: 60007
+          - nodeName: superPeer_8
+            ip: 192.168.56.1
+            serverPort: 60008
+          - nodeName: superPeer_9
+            ip: 192.168.56.1
+            serverPort: 60009
+          - nodeName: superPeer_10
+            ip: 192.168.56.1
+            serverPort: 60010
+superPeer_2: 
+     ip: 192.168.56.1
+     serverPort: 60002
+     clientPort: 8082
+     links: 
+          - nodeName: superPeer_1
+            ip: 192.168.56.1
+            serverPort: 60001
+          - nodeName: superPeer_3
+            ip: 192.168.56.1
+            serverPort: 60003
+          - nodeName: superPeer_4
+            ip: 192.168.56.1
+            serverPort: 60004
+          - nodeName: superPeer_5
+            ip: 192.168.56.1
+            serverPort: 60005
+          - nodeName: superPeer_6
+            ip: 192.168.56.1
+            serverPort: 60006
+          - nodeName: superPeer_7
+            ip: 192.168.56.1
+            serverPort: 60007
+          - nodeName: superPeer_8
+            ip: 192.168.56.1
+            serverPort: 60008
+          - nodeName: superPeer_9
+            ip: 192.168.56.1
+            serverPort: 60009
+          - nodeName: superPeer_10
+            ip: 192.168.56.1
+            serverPort: 60010
+superPeer_3: 
+     ip: 192.168.56.1
+     serverPort: 60003
+     clientPort: 8083
+     links: 
+          - nodeName: superPeer_1
+            ip: 192.168.56.1
+            serverPort: 60001
+          - nodeName: superPeer_2
+            ip: 192.168.56.1
+            serverPort: 60002
+          - nodeName: superPeer_4
+            ip: 192.168.56.1
+            serverPort: 60004
+          - nodeName: superPeer_5
+            ip: 192.168.56.1
+            serverPort: 60005
+          - nodeName: superPeer_6
+            ip: 192.168.56.1
+            serverPort: 60006
+          - nodeName: superPeer_7
+            ip: 192.168.56.1
+            serverPort: 60007
+          - nodeName: superPeer_8
+            ip: 192.168.56.1
+            serverPort: 60008
+          - nodeName: superPeer_9
+            ip: 192.168.56.1
+            serverPort: 60009
+          - nodeName: superPeer_10
+            ip: 192.168.56.1
+            serverPort: 60010
+superPeer_4: 
+     ip: 192.168.56.1
+     serverPort: 60004
+     clientPort: 8084
+     links: 
+          - nodeName: superPeer_1
+            ip: 192.168.56.1
+            serverPort: 60001
+          - nodeName: superPeer_2
+            ip: 192.168.56.1
+            serverPort: 60002
+          - nodeName: superPeer_3
+            ip: 192.168.56.1
+            serverPort: 60003
+          - nodeName: superPeer_5
+            ip: 192.168.56.1
+            serverPort: 60005
+          - nodeName: superPeer_6
+            ip: 192.168.56.1
+            serverPort: 60006
+          - nodeName: superPeer_7
+            ip: 192.168.56.1
+            serverPort: 60007
+          - nodeName: superPeer_8
+            ip: 192.168.56.1
+            serverPort: 60008
+          - nodeName: superPeer_9
+            ip: 192.168.56.1
+            serverPort: 60009
+          - nodeName: superPeer_10
+            ip: 192.168.56.1
+            serverPort: 60010
+superPeer_5: 
+     ip: 192.168.56.1
+     serverPort: 60005
+     clientPort: 8085
+     links: 
+          - nodeName: superPeer_1
+            ip: 192.168.56.1
+            serverPort: 60001
+          - nodeName: superPeer_2
+            ip: 192.168.56.1
+            serverPort: 60002
+          - nodeName: superPeer_3
+            ip: 192.168.56.1
+            serverPort: 60003
+          - nodeName: superPeer_4
+            ip: 192.168.56.1
+            serverPort: 60004
+          - nodeName: superPeer_6
+            ip: 192.168.56.1
+            serverPort: 60006
+          - nodeName: superPeer_7
+            ip: 192.168.56.1
+            serverPort: 60007
+          - nodeName: superPeer_8
+            ip: 192.168.56.1
+            serverPort: 60008
+          - nodeName: superPeer_9
+            ip: 192.168.56.1
+            serverPort: 60009
+          - nodeName: superPeer_10
+            ip: 192.168.56.1
+            serverPort: 60010
+superPeer_6: 
+     ip: 192.168.56.1
+     serverPort: 60006
+     clientPort: 8086
+     links: 
+          - nodeName: superPeer_1
+            ip: 192.168.56.1
+            serverPort: 60001
+          - nodeName: superPeer_2
+            ip: 192.168.56.1
+            serverPort: 60002
+          - nodeName: superPeer_3
+            ip: 192.168.56.1
+            serverPort: 60003
+          - nodeName: superPeer_4
+            ip: 192.168.56.1
+            serverPort: 60004
+          - nodeName: superPeer_5
+            ip: 192.168.56.1
+            serverPort: 60005
+          - nodeName: superPeer_7
+            ip: 192.168.56.1
+            serverPort: 60007
+          - nodeName: superPeer_8
+            ip: 192.168.56.1
+            serverPort: 60008
+          - nodeName: superPeer_9
+            ip: 192.168.56.1
+            serverPort: 60009
+          - nodeName: superPeer_10
+            ip: 192.168.56.1
+            serverPort: 60010
+superPeer_7: 
+     ip: 192.168.56.1
+     serverPort: 60007
+     clientPort: 8087
+     links: 
+          - nodeName: superPeer_1
+            ip: 192.168.56.1
+            serverPort: 60001
+          - nodeName: superPeer_2
+            ip: 192.168.56.1
+            serverPort: 60002
+          - nodeName: superPeer_3
+            ip: 192.168.56.1
+            serverPort: 60003
+          - nodeName: superPeer_4
+            ip: 192.168.56.1
+            serverPort: 60004
+          - nodeName: superPeer_5
+            ip: 192.168.56.1
+            serverPort: 60005
+          - nodeName: superPeer_6
+            ip: 192.168.56.1
+            serverPort: 60006
+          - nodeName: superPeer_8
+            ip: 192.168.56.1
+            serverPort: 60008
+          - nodeName: superPeer_9
+            ip: 192.168.56.1
+            serverPort: 60009
+          - nodeName: superPeer_10
+            ip: 192.168.56.1
+            serverPort: 60010
+superPeer_8: 
+     ip: 192.168.56.1
+     serverPort: 60008
+     clientPort: 8088
+     links: 
+          - nodeName: superPeer_1
+            ip: 192.168.56.1
+            serverPort: 60001
+          - nodeName: superPeer_2
+            ip: 192.168.56.1
+            serverPort: 60002
+          - nodeName: superPeer_3
+            ip: 192.168.56.1
+            serverPort: 60003
+          - nodeName: superPeer_4
+            ip: 192.168.56.1
+            serverPort: 60004
+          - nodeName: superPeer_5
+            ip: 192.168.56.1
+            serverPort: 60005
+          - nodeName: superPeer_6
+            ip: 192.168.56.1
+            serverPort: 60006
+          - nodeName: superPeer_7
+            ip: 192.168.56.1
+            serverPort: 60007
+          - nodeName: superPeer_9
+            ip: 192.168.56.1
+            serverPort: 60009
+          - nodeName: superPeer_10
+            ip: 192.168.56.1
+            serverPort: 60010
+superPeer_9: 
+     ip: 192.168.56.1
+     serverPort: 60009
+     clientPort: 8089
+     links: 
+          - nodeName: superPeer_1
+            ip: 192.168.56.1
+            serverPort: 60001
+          - nodeName: superPeer_2
+            ip: 192.168.56.1
+            serverPort: 60002
+          - nodeName: superPeer_3
+            ip: 192.168.56.1
+            serverPort: 60003
+          - nodeName: superPeer_4
+            ip: 192.168.56.1
+            serverPort: 60004
+          - nodeName: superPeer_5
+            ip: 192.168.56.1
+            serverPort: 60005
+          - nodeName: superPeer_6
+            ip: 192.168.56.1
+            serverPort: 60006
+          - nodeName: superPeer_7
+            ip: 192.168.56.1
+            serverPort: 60007
+          - nodeName: superPeer_8
+            ip: 192.168.56.1
+            serverPort: 60008
+          - nodeName: superPeer_10
+            ip: 192.168.56.1
+            serverPort: 60010
+superPeer_10: 
+     ip: 192.168.56.1
+     serverPort: 60010
+     clientPort: 8090
+     links: 
+          - nodeName: superPeer_1
+            ip: 192.168.56.1
+            serverPort: 60001
+          - nodeName: superPeer_2
+            ip: 192.168.56.1
+            serverPort: 60002
+          - nodeName: superPeer_3
+            ip: 192.168.56.1
+            serverPort: 60003
+          - nodeName: superPeer_4
+            ip: 192.168.56.1
+            serverPort: 60004
+          - nodeName: superPeer_5
+            ip: 192.168.56.1
+            serverPort: 60005
+          - nodeName: superPeer_6
+            ip: 192.168.56.1
+            serverPort: 60006
+          - nodeName: superPeer_7
+            ip: 192.168.56.1
+            serverPort: 60007
+          - nodeName: superPeer_8
+            ip: 192.168.56.1
+            serverPort: 60008
+          - nodeName: superPeer_9
+            ip: 192.168.56.1
+            serverPort: 60009
+leafNode_1: 
+     ip: 192.168.56.1
+     serverPort: 50001
+     clientPort: 7001
+     action: pull
+     links: 
+          - nodeName: superPeer_1
+            ip: 192.168.56.1
+            serverPort: 60001
+leafNode_2: 
+     ip: 192.168.56.1
+     serverPort: 50002
+     clientPort: 7002
+     action: pull
+     links: 
+          - nodeName: superPeer_1
+            ip: 192.168.56.1
+            serverPort: 60001
+leafNode_3: 
+     ip: 192.168.56.1
+     serverPort: 50003
+     clientPort: 7003
+     action: pull
+     links: 
+          - nodeName: superPeer_1
+            ip: 192.168.56.1
+            serverPort: 60001
+leafNode_4: 
+     ip: 192.168.56.1
+     serverPort: 50004
+     clientPort: 7004
+     action: pull
+     links: 
+          - nodeName: superPeer_2
+            ip: 192.168.56.1
+            serverPort: 60002
+leafNode_5: 
+     ip: 192.168.56.1
+     serverPort: 50005
+     clientPort: 7005
+     action: pull
+     links: 
+          - nodeName: superPeer_2
+            ip: 192.168.56.1
+            serverPort: 60002
+leafNode_6: 
+     ip: 192.168.56.1
+     serverPort: 50006
+     clientPort: 7006
+     action: pull
+     links: 
+          - nodeName: superPeer_2
+            ip: 192.168.56.1
+            serverPort: 60002
+leafNode_7: 
+     ip: 192.168.56.1
+     serverPort: 50007
+     clientPort: 7007
+     action: pull
+     links: 
+          - nodeName: superPeer_3
+            ip: 192.168.56.1
+            serverPort: 60003
+leafNode_8: 
+     ip: 192.168.56.1
+     serverPort: 50008
+     clientPort: 7008
+     action: pull
+     links: 
+          - nodeName: superPeer_3
+            ip: 192.168.56.1
+            serverPort: 60003
+leafNode_9: 
+     ip: 192.168.56.1
+     serverPort: 50009
+     clientPort: 7009
+     action: pull
+     links: 
+          - nodeName: superPeer_3
+            ip: 192.168.56.1
+            serverPort: 60003
+leafNode_10: 
+     ip: 192.168.56.1
+     serverPort: 50010
+     clientPort: 7010
+     action: pull
+     links: 
+          - nodeName: superPeer_4
+            ip: 192.168.56.1
+            serverPort: 60004
+leafNode_11: 
+     ip: 192.168.56.1
+     serverPort: 50011
+     clientPort: 7011
+     action: pull
+     links: 
+          - nodeName: superPeer_4
+            ip: 192.168.56.1
+            serverPort: 60004
+leafNode_12: 
+     ip: 192.168.56.1
+     serverPort: 50012
+     clientPort: 7012
+     action: pull
+     links: 
+          - nodeName: superPeer_4
+            ip: 192.168.56.1
+            serverPort: 60004
+leafNode_13: 
+     ip: 192.168.56.1
+     serverPort: 50013
+     clientPort: 7013
+     action: pull
+     links: 
+          - nodeName: superPeer_5
+            ip: 192.168.56.1
+            serverPort: 60005
+leafNode_14: 
+     ip: 192.168.56.1
+     serverPort: 50014
+     clientPort: 7014
+     action: pull
+     links: 
+          - nodeName: superPeer_5
+            ip: 192.168.56.1
+            serverPort: 60005
+leafNode_15: 
+     ip: 192.168.56.1
+     serverPort: 50015
+     clientPort: 7015
+     action: pull
+     links: 
+          - nodeName: superPeer_5
+            ip: 192.168.56.1
+            serverPort: 60005
+leafNode_16: 
+     ip: 192.168.56.1
+     serverPort: 50016
+     clientPort: 7016
+     action: pull
+     links: 
+          - nodeName: superPeer_6
+            ip: 192.168.56.1
+            serverPort: 60006
+leafNode_17: 
+     ip: 192.168.56.1
+     serverPort: 50017
+     clientPort: 7017
+     action: pull
+     links: 
+          - nodeName: superPeer_6
+            ip: 192.168.56.1
+            serverPort: 60006
+leafNode_18: 
+     ip: 192.168.56.1
+     serverPort: 50018
+     clientPort: 7018
+     action: pull
+     links: 
+          - nodeName: superPeer_6
+            ip: 192.168.56.1
+            serverPort: 60006
+leafNode_19: 
+     ip: 192.168.56.1
+     serverPort: 50019
+     clientPort: 7019
+     action: pull
+     links: 
+          - nodeName: superPeer_7
+            ip: 192.168.56.1
+            serverPort: 60007
+leafNode_20: 
+     ip: 192.168.56.1
+     serverPort: 50020
+     clientPort: 7020
+     action: pull
+     links: 
+          - nodeName: superPeer_7
+            ip: 192.168.56.1
+            serverPort: 60007
+leafNode_21: 
+     ip: 192.168.56.1
+     serverPort: 50021
+     clientPort: 7021
+     action: pull
+     links: 
+          - nodeName: superPeer_7
+            ip: 192.168.56.1
+            serverPort: 60007
+leafNode_22: 
+     ip: 192.168.56.1
+     serverPort: 50022
+     clientPort: 7022
+     action: pull
+     links: 
+          - nodeName: superPeer_8
+            ip: 192.168.56.1
+            serverPort: 60008
+leafNode_23: 
+     ip: 192.168.56.1
+     serverPort: 50023
+     clientPort: 7023
+     action: pull
+     links: 
+          - nodeName: superPeer_8
+            ip: 192.168.56.1
+            serverPort: 60008
+leafNode_24: 
+     ip: 192.168.56.1
+     serverPort: 50024
+     clientPort: 7024
+     action: pull
+     links: 
+          - nodeName: superPeer_8
+            ip: 192.168.56.1
+            serverPort: 60008
+leafNode_25: 
+     ip: 192.168.56.1
+     serverPort: 50025
+     clientPort: 7025
+     action: pull
+     links: 
+          - nodeName: superPeer_9
+            ip: 192.168.56.1
+            serverPort: 60009
+leafNode_26: 
+     ip: 192.168.56.1
+     serverPort: 50026
+     clientPort: 7026
+     action: pull
+     links: 
+          - nodeName: superPeer_9
+            ip: 192.168.56.1
+            serverPort: 60009
+leafNode_27: 
+     ip: 192.168.56.1
+     serverPort: 50027
+     clientPort: 7027
+     action: pull
+     links: 
+          - nodeName: superPeer_9
+            ip: 192.168.56.1
+            serverPort: 60009
+leafNode_28: 
+     ip: 192.168.56.1
+     serverPort: 50028
+     clientPort: 7028
+     action: pull
+     links: 
+          - nodeName: superPeer_10
+            ip: 192.168.56.1
+            serverPort: 60010
+leafNode_29: 
+     ip: 192.168.56.1
+     serverPort: 50029
+     clientPort: 7029
+     action: pull
+     links: 
+          - nodeName: superPeer_10
+            ip: 192.168.56.1
+            serverPort: 60010
+leafNode_30: 
+     ip: 192.168.56.1
+     serverPort: 50030
+     clientPort: 7030
+     action: pull
+     links: 
+          - nodeName: superPeer_10
+            ip: 192.168.56.1
+            serverPort: 60010

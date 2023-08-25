@@ -1,0 +1,432 @@
+s_1: 
+     ip: 192.168.0.7
+     serverPort: 60001
+     clientPort: 8081
+     links: 
+          - link: 
+            nodeName: s_1
+            ip: 192.168.0.7
+            serverPort: 60001
+          - link: 
+            nodeName: s_2
+            ip: 192.168.0.7
+            serverPort: 60002
+s_2: 
+     ip: 192.168.0.7
+     serverPort: 60002
+     clientPort: 8082
+     links: 
+          - link: 
+            nodeName: s_2
+            ip: 192.168.0.7
+            serverPort: 60002
+          - link: 
+            nodeName: s_1
+            ip: 192.168.0.7
+            serverPort: 60001
+          - link: 
+            nodeName: s_3
+            ip: 192.168.0.7
+            serverPort: 60003
+s_3: 
+     ip: 192.168.0.7
+     serverPort: 60003
+     clientPort: 8083
+     links: 
+          - link: 
+            nodeName: s_3
+            ip: 192.168.0.7
+            serverPort: 60003
+          - link: 
+            nodeName: s_2
+            ip: 192.168.0.7
+            serverPort: 60002
+          - link: 
+            nodeName: s_4
+            ip: 192.168.0.7
+            serverPort: 60004
+s_4: 
+     ip: 192.168.0.7
+     serverPort: 60004
+     clientPort: 8084
+     links: 
+          - link: 
+            nodeName: s_4
+            ip: 192.168.0.7
+            serverPort: 60004
+          - link: 
+            nodeName: s_3
+            ip: 192.168.0.7
+            serverPort: 60003
+          - link: 
+            nodeName: s_5
+            ip: 192.168.0.7
+            serverPort: 60005
+s_5: 
+     ip: 192.168.0.7
+     serverPort: 60005
+     clientPort: 8085
+     links: 
+          - link: 
+            nodeName: s_5
+            ip: 192.168.0.7
+            serverPort: 60005
+          - link: 
+            nodeName: s_4
+            ip: 192.168.0.7
+            serverPort: 60004
+          - link: 
+            nodeName: s_6
+            ip: 192.168.0.7
+            serverPort: 60006
+s_6: 
+     ip: 192.168.0.7
+     serverPort: 60006
+     clientPort: 8086
+     links: 
+          - link: 
+            nodeName: s_6
+            ip: 192.168.0.7
+            serverPort: 60006
+          - link: 
+            nodeName: s_5
+            ip: 192.168.0.7
+            serverPort: 60005
+          - link: 
+            nodeName: s_7
+            ip: 192.168.0.7
+            serverPort: 60007
+s_7: 
+     ip: 192.168.0.7
+     serverPort: 60007
+     clientPort: 8087
+     links: 
+          - link: 
+            nodeName: s_7
+            ip: 192.168.0.7
+            serverPort: 60007
+          - link: 
+            nodeName: s_6
+            ip: 192.168.0.7
+            serverPort: 60006
+          - link: 
+            nodeName: s_8
+            ip: 192.168.0.7
+            serverPort: 60008
+s_8: 
+     ip: 192.168.0.7
+     serverPort: 60008
+     clientPort: 8088
+     links: 
+          - link: 
+            nodeName: s_8
+            ip: 192.168.0.7
+            serverPort: 60008
+          - link: 
+            nodeName: s_7
+            ip: 192.168.0.7
+            serverPort: 60007
+          - link: 
+            nodeName: s_9
+            ip: 192.168.0.7
+            serverPort: 60009
+s_9: 
+     ip: 192.168.0.7
+     serverPort: 60009
+     clientPort: 8089
+     links: 
+          - link: 
+            nodeName: s_9
+            ip: 192.168.0.7
+            serverPort: 60009
+          - link: 
+            nodeName: s_8
+            ip: 192.168.0.7
+            serverPort: 60008
+          - link: 
+            nodeName: s_10
+            ip: 192.168.0.7
+            serverPort: 60010
+s_10: 
+     ip: 192.168.0.7
+     serverPort: 60010
+     clientPort: 8090
+     links: 
+          - link: 
+            nodeName: s_10
+            ip: 192.168.0.7
+            serverPort: 60010
+          - link: 
+            nodeName: s_9
+            ip: 192.168.0.7
+            serverPort: 60009
+h_1: 
+     ip: 192.168.0.7
+     serverPort: 50001
+     clientPort: 7001
+     links: 
+          - link: 
+            nodeName: s_1
+            ip: 192.168.0.7
+            serverPort: 60001
+h_2: 
+     ip: 192.168.0.7
+     serverPort: 50002
+     clientPort: 7002
+     links: 
+          - link: 
+            nodeName: s_1
+            ip: 192.168.0.7
+            serverPort: 60001
+h_3: 
+     ip: 192.168.0.7
+     serverPort: 50003
+     clientPort: 7003
+     links: 
+          - link: 
+            nodeName: s_1
+            ip: 192.168.0.7
+            serverPort: 60001
+h_4: 
+     ip: 192.168.0.7
+     serverPort: 50004
+     clientPort: 7004
+     links: 
+          - link: 
+            nodeName: s_2
+            ip: 192.168.0.7
+            serverPort: 60002
+h_5: 
+     ip: 192.168.0.7
+     serverPort: 50005
+     clientPort: 7005
+     links: 
+          - link: 
+            nodeName: s_2
+            ip: 192.168.0.7
+            serverPort: 60002
+h_6: 
+     ip: 192.168.0.7
+     serverPort: 50006
+     clientPort: 7006
+     links: 
+          - link: 
+            nodeName: s_2
+            ip: 192.168.0.7
+            serverPort: 60002
+h_7: 
+     ip: 192.168.0.7
+     serverPort: 50007
+     clientPort: 7007
+     links: 
+          - link: 
+            nodeName: s_3
+            ip: 192.168.0.7
+            serverPort: 60003
+h_8: 
+     ip: 192.168.0.7
+     serverPort: 50008
+     clientPort: 7008
+     links: 
+          - link: 
+            nodeName: s_3
+            ip: 192.168.0.7
+            serverPort: 60003
+h_9: 
+     ip: 192.168.0.7
+     serverPort: 50009
+     clientPort: 7009
+     links: 
+          - link: 
+            nodeName: s_3
+            ip: 192.168.0.7
+            serverPort: 60003
+h_10: 
+     ip: 192.168.0.7
+     serverPort: 50010
+     clientPort: 7010
+     links: 
+          - link: 
+            nodeName: s_4
+            ip: 192.168.0.7
+            serverPort: 60004
+h_11: 
+     ip: 192.168.0.7
+     serverPort: 50011
+     clientPort: 7011
+     links: 
+          - link: 
+            nodeName: s_4
+            ip: 192.168.0.7
+            serverPort: 60004
+h_12: 
+     ip: 192.168.0.7
+     serverPort: 50012
+     clientPort: 7012
+     links: 
+          - link: 
+            nodeName: s_4
+            ip: 192.168.0.7
+            serverPort: 60004
+h_13: 
+     ip: 192.168.0.7
+     serverPort: 50013
+     clientPort: 7013
+     links: 
+          - link: 
+            nodeName: s_5
+            ip: 192.168.0.7
+            serverPort: 60005
+h_14: 
+     ip: 192.168.0.7
+     serverPort: 50014
+     clientPort: 7014
+     links: 
+          - link: 
+            nodeName: s_5
+            ip: 192.168.0.7
+            serverPort: 60005
+h_15: 
+     ip: 192.168.0.7
+     serverPort: 50015
+     clientPort: 7015
+     links: 
+          - link: 
+            nodeName: s_5
+            ip: 192.168.0.7
+            serverPort: 60005
+h_16: 
+     ip: 192.168.0.7
+     serverPort: 50016
+     clientPort: 7016
+     links: 
+          - link: 
+            nodeName: s_6
+            ip: 192.168.0.7
+            serverPort: 60006
+h_17: 
+     ip: 192.168.0.7
+     serverPort: 50017
+     clientPort: 7017
+     links: 
+          - link: 
+            nodeName: s_6
+            ip: 192.168.0.7
+            serverPort: 60006
+h_18: 
+     ip: 192.168.0.7
+     serverPort: 50018
+     clientPort: 7018
+     links: 
+          - link: 
+            nodeName: s_6
+            ip: 192.168.0.7
+            serverPort: 60006
+h_19: 
+     ip: 192.168.0.7
+     serverPort: 50019
+     clientPort: 7019
+     links: 
+          - link: 
+            nodeName: s_7
+            ip: 192.168.0.7
+            serverPort: 60007
+h_20: 
+     ip: 192.168.0.7
+     serverPort: 50020
+     clientPort: 7020
+     links: 
+          - link: 
+            nodeName: s_7
+            ip: 192.168.0.7
+            serverPort: 60007
+h_21: 
+     ip: 192.168.0.7
+     serverPort: 50021
+     clientPort: 7021
+     links: 
+          - link: 
+            nodeName: s_7
+            ip: 192.168.0.7
+            serverPort: 60007
+h_22: 
+     ip: 192.168.0.7
+     serverPort: 50022
+     clientPort: 7022
+     links: 
+          - link: 
+            nodeName: s_8
+            ip: 192.168.0.7
+            serverPort: 60008
+h_23: 
+     ip: 192.168.0.7
+     serverPort: 50023
+     clientPort: 7023
+     links: 
+          - link: 
+            nodeName: s_8
+            ip: 192.168.0.7
+            serverPort: 60008
+h_24: 
+     ip: 192.168.0.7
+     serverPort: 50024
+     clientPort: 7024
+     links: 
+          - link: 
+            nodeName: s_8
+            ip: 192.168.0.7
+            serverPort: 60008
+h_25: 
+     ip: 192.168.0.7
+     serverPort: 50025
+     clientPort: 7025
+     links: 
+          - link: 
+            nodeName: s_9
+            ip: 192.168.0.7
+            serverPort: 60009
+h_26: 
+     ip: 192.168.0.7
+     serverPort: 50026
+     clientPort: 7026
+     links: 
+          - link: 
+            nodeName: s_9
+            ip: 192.168.0.7
+            serverPort: 60009
+h_27: 
+     ip: 192.168.0.7
+     serverPort: 50027
+     clientPort: 7027
+     links: 
+          - link: 
+            nodeName: s_9
+            ip: 192.168.0.7
+            serverPort: 60009
+h_28: 
+     ip: 192.168.0.7
+     serverPort: 50028
+     clientPort: 7028
+     links: 
+          - link: 
+            nodeName: s_10
+            ip: 192.168.0.7
+            serverPort: 60010
+h_29: 
+     ip: 192.168.0.7
+     serverPort: 50029
+     clientPort: 7029
+     links: 
+          - link: 
+            nodeName: s_10
+            ip: 192.168.0.7
+            serverPort: 60010
+h_30: 
+     ip: 192.168.0.7
+     serverPort: 50030
+     clientPort: 7030
+     links: 
+          - link: 
+            nodeName: s_10
+            ip: 192.168.0.7
+            serverPort: 60010
