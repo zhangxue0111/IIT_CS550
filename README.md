@@ -2,18 +2,15 @@
 
 ## Overview
 
-## Compiling and Running
-
-1. Enter into the folder containing all documents. `$ cd /assign3
-
-2. Execute `$ make all` 
-
-3. See `test_assign3_1` results`$ ./test_assign3_1`
-
+We implemented a distributed Gnutella-Style P2P file sharing system. Basically, there are four parts, which are topology structure generation, peer server, peer client and a database management. 
 
 ## Architectural Design
 
 ![Screenshot](p2p.png)
 
-## Design Rationale
+## Dependence Relationship
+
+We adopt the ideas used in Dubbo Framework developed by Alibaba. 
+
+![Screenshot](relation.png)
 
